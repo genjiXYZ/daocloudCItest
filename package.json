@@ -1,0 +1,22 @@
+{
+  "name": "daocloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "server":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genjiXYZ/daocloudCItest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genjiXYZ/daocloudCItest/issues"
+  },
+  "homepage": "https://github.com/genjiXYZ/daocloudCItest#readme",
+  "dependencies": {
+    "express": "^5.0.0-alpha.8"
+  }
+}
