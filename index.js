@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
  
 app.get('/', function (req, res) {
-  res.send('hey guys')
+  res.send(req.ip)
 })
 app.get('/api', function (req, res) {
   res.send('api')
